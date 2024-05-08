@@ -9,6 +9,8 @@ public class HelloWorld {
      * or misspell System.out.println and try to recompiling. You'll get an error!
      */
     public static void main(String... args) {
+        OutputGenerator generator = new OutputGenerator();
         System.out.println("Hello, World!");
+        System.out.println(generator.generateARandomOutHello());
     }
 }
